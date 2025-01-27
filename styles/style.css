@@ -31,3 +31,20 @@
     padding: 0px 19px;
     border-radius: 20px;
 }
+#direction-btn{
+    border-radius: 20px;
+    padding: 15px 12px 6px; 
+    background-color: transparent;
+   
+}
+@font-face {
+    font-family: butler;
+    src: url(./fonts/butler/);
+}
+#butler{
+    font-family: butler;
+    font-size: 48px;
+}
+#express{
+    font-size: 52px;
+}

@@ -134,14 +134,56 @@ m-5{
     border-radius: 30px;
     cursor: pointer;
 }
-span{
-    font-size: xx-large;
-    font-weight: bolder;
-    font-style: italic;
-}
 .padding{
     padding: 0px 19px;
 }
 .margin{
     margin: 24px 38px 0px;
+}
+@font-face {
+    font-family: futurak;
+    src: url(./fonts/futurak/futurak.ttf);
+}
+span,h2{
+    font-family: futurak;
+}
+h1,h2,h3{
+    font-size: 40px;
+}
+p{
+    font-size: 16px;
+}
+@font-face{
+    font-family: inter;
+    src: url(./fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+.btn-child{
+    font-family: inter;
+}
+@font-face {
+    font-family: appercu;
+    src: url(./fonts/Apercu-Font/Apercu\ Regular.otf);
+}
+h3,p,h1{
+    font-family: appercu;
+}
+.two{
+    font-size: 32px;
+    font-family: futurak;
+    margin:0px 0px 24px;
+}
+h4,h6{
+    font-size: 16px;
+    margin: 0px 0px 24px;
+}
+h5{
+    font-size: 32px;
+    font-family: appercu;
+    margin: 0px 0px 24px;
+}
+.loaction-num{
+    font-family: appercu;
+    font-size: 16px;
+    font-family: appercu;
+    margin: 0px 0px 16px;
 }
