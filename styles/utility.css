@@ -19,6 +19,7 @@ html {
     --black: #000000;
     --green: #28a745;
     --grey: #0f0f0f;
+    --silver:#0d0d0d;
 }
 .text-center {
     text-align: center;
@@ -46,6 +47,9 @@ html {
 }
 .bg-grey {
     background-color: var(--grey);
+}
+.bg-silver{
+    background-color: var(--silver);
 }
 .text-red {
     color: var(--red);
@@ -125,7 +129,6 @@ m-4{
 m-5{
     margin: 25px;
 }
-
 .border{
     border: 1px solid var(--white);
 }
@@ -160,19 +163,30 @@ p{
 .btn-child{
     font-family: inter;
 }
+.size2{
+    font-size: 26px;
+}
 @font-face {
     font-family: appercu;
     src: url(../fonts/Apercu-Font/Apercu\ Regular.otf);
 }
+@font-face {
+    font-family: futura;
+    src: url(../fonts/futura-black-bold_rgd22/Futura-Black\ Bold/);
+}
 .appercu{
     font-family: appercu;
+}
+.butler{
+    font-family: butler;
+    font-size: 48px;
 }
 .two{
     font-size: 32px;
     font-family: futurak;
     margin:0px 0px 24px;
 }
-h4,h6{
+.size-margin{
     font-size: 16px;
     margin: 0px 0px 24px;
 }
@@ -192,4 +206,35 @@ h5{
 }
 .f-size{
     font-size: 24px;
+}
+.font-size1{
+    font-size: 32px;
+}
+.font-size2{
+    font-size: 52px;
+}
+.small{
+    font-size: 15px;
+}
+.size{
+    font-size: 32px;
+}
+.width-height{
+    width: 295px;
+    height: 295px;
+}
+.othersize{
+    font-size: 21px;
+    font-family: futura;
+}
+.flex-row{
+    flex-direction: column;
+}
+.display{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+.size-3{
+    font-size: larger;
 }
