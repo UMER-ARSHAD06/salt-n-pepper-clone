@@ -142,12 +142,12 @@ m-5{
 }
 @font-face {
     font-family: futurak;
-    src: url(./fonts/futurak/futurak.ttf);
+    src: url(../fonts/futurak/futurak.ttf);
 }
-span,h2{
+.futurak{
     font-family: futurak;
 }
-h1,h2,h3{
+.font-size{
     font-size: 40px;
 }
 p{
@@ -155,16 +155,16 @@ p{
 }
 @font-face{
     font-family: inter;
-    src: url(./fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+    src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
 }
 .btn-child{
     font-family: inter;
 }
 @font-face {
     font-family: appercu;
-    src: url(./fonts/Apercu-Font/Apercu\ Regular.otf);
+    src: url(../fonts/Apercu-Font/Apercu\ Regular.otf);
 }
-h3,p,h1{
+.appercu{
     font-family: appercu;
 }
 .two{
@@ -186,4 +186,10 @@ h5{
     font-size: 16px;
     font-family: appercu;
     margin: 0px 0px 16px;
+}
+.pointer{
+    cursor: pointer;
+}
+.f-size{
+    font-size: 24px;
 }
