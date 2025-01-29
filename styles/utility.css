@@ -66,6 +66,11 @@ html {
 .text-grey {
     color: var(--grey);
 }
+.color{
+    color:  rgb(193 193 193);
+    line-height: 21px;
+    letter-spacing: 0.03rem;
+}
 .d-flex {
     display: flex;
 }
@@ -249,4 +254,8 @@ h5{
 }
 .footer-size{
     font-size: 22px;
+}
+.p-72{
+    padding: 72px;
+    line-height: 46px;
 }
