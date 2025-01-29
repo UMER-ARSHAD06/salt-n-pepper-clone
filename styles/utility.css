@@ -132,7 +132,13 @@ m-5{
 .border{
     border: 1px solid var(--white);
 }
-
+.border-2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 4rem;
+    gap: 5px;
+}
 .rounded{
     border-radius: 30px;
     cursor: pointer;
@@ -237,4 +243,10 @@ h5{
 }
 .size-3{
     font-size: larger;
+}
+.bold{
+    font-weight: bolder;
+}
+.footer-size{
+    font-size: 22px;
 }
