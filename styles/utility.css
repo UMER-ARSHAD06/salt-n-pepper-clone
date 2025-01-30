@@ -183,6 +183,10 @@ p{
 .size2{
     font-size: 26px;
 }
+.p-submit{
+    padding: 12px 23px 8px;
+    
+}
 @font-face {
     font-family: appercu;
     src: url(../fonts/Apercu-Font/Apercu\ Regular.otf);
@@ -278,4 +282,9 @@ h5{
     width: 430px;
     height: 500px;
     border: 1px solid whitesmoke;
+}
+.p-label{
+    padding: 10px 40px 10px 15px;
+    border: 1px solid var(--black);
+    width: 457px;
 }
