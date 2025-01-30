@@ -274,3 +274,8 @@ h5{
     width: 330px;
     height: 100px;
 }
+.w-h{
+    width: 430px;
+    height: 500px;
+    border: 1px solid whitesmoke;
+}
