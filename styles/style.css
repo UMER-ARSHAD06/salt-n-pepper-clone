@@ -61,3 +61,15 @@
 ul{
     list-style: none;
 }
+#image-2{
+    width: 550px;
+    height: 350px;
+    padding: 5px;
+     /* margin-left: 70px;  */ 
+}
+#image-1{
+    width: 550px;
+    height: 350px;
+    padding: 5px;
+    /* margin-left: 100px; */
+}

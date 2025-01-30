@@ -66,6 +66,9 @@ html {
 .text-grey {
     color: var(--grey);
 }
+.img-round{
+    border-radius: 15px;
+}
 .color{
     color:  rgb(193 193 193);
     line-height: 21px;
@@ -129,7 +132,7 @@ m-3{
     margin: 15px;
 }
 m-4{
-    margin: 20px;
+ margin-right: 20px;
 }
 m-5{
     margin: 25px;
